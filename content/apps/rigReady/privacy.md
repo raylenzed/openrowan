@@ -1,4 +1,5 @@
 ---
+aliases: ["/apps/rigready/privacy/"]
 title: "Privacy Policy"
 app_name: "RigReady"
 app_slug: "rigReady"

@@ -1,4 +1,5 @@
 ---
+aliases: ["/apps/tilecalc/privacy/"]
 title: "Privacy Policy"
 app_name: "TileCalc"
 app_slug: "tileCalc"

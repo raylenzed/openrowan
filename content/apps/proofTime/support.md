@@ -1,4 +1,5 @@
 ---
+aliases: ["/apps/prooftime/support/"]
 title: "Support"
 app_name: "ProofTime"
 app_slug: "proofTime"

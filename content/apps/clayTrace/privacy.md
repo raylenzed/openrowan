@@ -1,4 +1,5 @@
 ---
+aliases: ["/apps/claytrace/privacy/"]
 title: "Privacy Policy"
 app_name: "ClayTrace"
 app_slug: "clayTrace"

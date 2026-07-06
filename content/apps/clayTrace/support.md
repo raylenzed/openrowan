@@ -1,4 +1,5 @@
 ---
+aliases: ["/apps/claytrace/support/"]
 title: "Support"
 app_name: "ClayTrace"
 app_slug: "clayTrace"

@@ -1,4 +1,5 @@
 ---
+aliases: ["/apps/tapdrillpocket/support/"]
 title: "Support"
 app_name: "Tap Drill Pocket"
 app_slug: "tapDrillPocket"

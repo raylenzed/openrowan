@@ -1,4 +1,5 @@
 ---
+aliases: ["/apps/prooftime/terms/"]
 title: "Terms of Service"
 app_name: "ProofTime"
 app_slug: "proofTime"

@@ -1,4 +1,5 @@
 ---
+aliases: ["/apps/hivelog/privacy/"]
 title: "Privacy Policy"
 app_name: "HiveLog"
 app_slug: "hiveLog"

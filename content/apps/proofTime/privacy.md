@@ -1,4 +1,5 @@
 ---
+aliases: ["/apps/prooftime/privacy/"]
 title: "Privacy Policy"
 app_name: "ProofTime"
 app_slug: "proofTime"

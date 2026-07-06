@@ -1,4 +1,5 @@
 ---
+aliases: ["/apps/tilecalc/support/"]
 title: "Support"
 app_name: "TileCalc"
 app_slug: "tileCalc"

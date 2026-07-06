@@ -2,49 +2,48 @@
 title: "Support"
 app_name: "Twinkle"
 app_slug: "twinkle"
-last_updated: "2026-03-25"
+last_updated: "2026-06-05"
 ---
 
 ## Get Help
 
 **Email:** [raylenzed@gmail.com](mailto:raylenzed@gmail.com)
 
-We typically respond within 1–2 business days.
+We typically respond within 1-2 business days.
 
 ## Frequently Asked Questions
 
-### How many stories can I generate per day?
+### How many stories are free?
 
-Twinkle allows up to **3 stories per day**. The count resets at midnight your local time.
+Twinkle lets you open **3 full stories for free**. After that, you can unlock the full bedtime library with a one-time in-app purchase.
 
-### The story generation failed. What should I do?
+### What does the one-time purchase include?
 
-Story generation requires an internet connection. Check your connection and try again. If the problem persists, force-quit the app and reopen it. If it continues failing, please email us.
+The Twinkle Bedtime Library unlocks all 121 bedtime stories, built-in narration, offline reading, and the ability to save favorite stories to your library.
 
-### How do I cancel my subscription?
+### Is Twinkle a subscription?
 
-Subscriptions are managed by Apple, not within the App. To cancel:
-1. Open **Settings** on your iPhone
-2. Tap your name → **Subscriptions**
-3. Find **Twinkle** and tap **Cancel Subscription**
+No. Twinkle does not use subscriptions. The library unlock is a one-time purchase handled by Apple through the App Store.
 
-Alternatively, visit [reportaproblem.apple.com](https://reportaproblem.apple.com).
+### I purchased but the App still looks locked.
 
-### I was charged but the App says I don't have a subscription.
-
-Force-quit and reopen the App — the subscription status usually syncs within a few seconds. If it still shows as inactive after a minute, tap "Restore Purchases" in the App settings. If the issue persists, email us with your Apple ID region (not your Apple ID itself) and we'll investigate.
+Force-quit and reopen the App. If it still looks locked, open Settings inside Twinkle and tap "Restore Purchases." If the issue persists, email us with your Apple ID region (not your Apple ID itself).
 
 ### Can I use Twinkle on multiple devices?
 
-Yes. Your subscription is tied to your Apple ID. Sign in with the same Apple ID on any device and tap "Restore Purchases."
+Your purchase is tied to your Apple ID and can be restored on another device. Saved stories are stored locally on each device and do not sync between devices.
+
+### Does Twinkle need an internet connection?
+
+Stories and built-in narration work offline. An internet connection may be needed only for App Store purchase and restore flows.
 
 ### Is Twinkle safe for young children?
 
-Twinkle is rated 4+ on the App Store. The AI is configured to generate only age-appropriate, family-friendly content. We recommend parents operate the App and review stories before reading them aloud.
+Twinkle is rated 4+ on the App Store. It is designed for parents and guardians to use with children during bedtime.
 
-### What happens to story prompts I enter?
+### What happens to the name I enter?
 
-The theme and character name you choose are sent to OpenAI's API to generate your story. We do not store this information on our servers. See our [Privacy Policy](/apps/twinkle/privacy/) for details.
+The name is used locally on your device to personalize story text. We recommend using a first name, nickname, or fictional character name.
 
 ### How do I request a refund?
 

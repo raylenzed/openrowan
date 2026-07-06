@@ -1,4 +1,5 @@
 ---
+aliases: ["/apps/reeflog/privacy/"]
 title: "Privacy Policy"
 app_name: "ReefLog"
 app_slug: "reefLog"

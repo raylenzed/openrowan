@@ -1,4 +1,5 @@
 ---
+aliases: ["/apps/rigready/support/"]
 title: "Support"
 app_name: "RigReady"
 app_slug: "rigReady"

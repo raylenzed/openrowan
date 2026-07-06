@@ -1,4 +1,5 @@
 ---
+aliases: ["/apps/tapdrillpocket/privacy/"]
 title: "Privacy Policy"
 app_name: "Tap Drill Pocket"
 app_slug: "tapDrillPocket"

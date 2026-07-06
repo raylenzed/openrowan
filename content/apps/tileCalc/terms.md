@@ -1,4 +1,5 @@
 ---
+aliases: ["/apps/tilecalc/terms/"]
 title: "Terms of Service"
 app_name: "TileCalc"
 app_slug: "tileCalc"

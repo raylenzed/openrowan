@@ -1,4 +1,5 @@
 ---
+aliases: ["/apps/driftlog/privacy/"]
 title: "Privacy Policy"
 app_name: "DriftLog"
 app_slug: "driftLog"

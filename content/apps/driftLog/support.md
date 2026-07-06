@@ -1,4 +1,5 @@
 ---
+aliases: ["/apps/driftlog/support/"]
 title: "Support"
 app_name: "DriftLog"
 app_slug: "driftLog"

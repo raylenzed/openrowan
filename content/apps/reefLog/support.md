@@ -1,4 +1,5 @@
 ---
+aliases: ["/apps/reeflog/support/"]
 title: "Support"
 app_name: "ReefLog"
 app_slug: "reefLog"

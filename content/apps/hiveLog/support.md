@@ -1,4 +1,5 @@
 ---
+aliases: ["/apps/hivelog/support/"]
 title: "Support"
 app_name: "HiveLog"
 app_slug: "hiveLog"
