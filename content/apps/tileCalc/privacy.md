@@ -40,4 +40,4 @@ We will post any changes here with an updated date.
 
 ## Contact
 
-**Email:** [raylenzed@gmail.com](mailto:raylenzed@gmail.com)
+**Email:** [hello@openrowan.com](mailto:hello@openrowan.com)

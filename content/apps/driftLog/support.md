@@ -42,4 +42,4 @@ Settings → **Export CSV** (Pro). Your measurements and service records export 
 
 ## Contact
 
-Need more help? Email **raylenzed@gmail.com** and include your iOS version and a short description of the issue. We usually reply within 2-3 business days.
+Need more help? Email **hello@openrowan.com** and include your iOS version and a short description of the issue. We usually reply within 2-3 business days.

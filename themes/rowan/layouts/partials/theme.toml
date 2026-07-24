@@ -1,0 +1,9 @@
+name = "Rowan"
+license = "MIT"
+licenselink = "https://github.com/RaylenZed/openrowan/blob/main/LICENSE"
+description = "OpenRowan Studio theme"
+homepage = "https://openrowan.com"
+min_version = "0.120.0"
+
+[author]
+  name = "RaylenZed"

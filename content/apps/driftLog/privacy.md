@@ -45,4 +45,4 @@ If this policy changes, the updated version will be posted at this page with a n
 
 ## Contact
 
-Questions about privacy? Email **raylenzed@gmail.com**.
+Questions about privacy? Email **hello@openrowan.com**.

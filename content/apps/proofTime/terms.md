@@ -45,4 +45,4 @@ These Terms are governed by the laws applicable in your jurisdiction. For disput
 
 ## Contact
 
-[raylenzed@gmail.com](mailto:raylenzed@gmail.com)
+[hello@openrowan.com](mailto:hello@openrowan.com)

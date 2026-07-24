@@ -57,4 +57,4 @@ We may update these Terms. Continued use of the App after changes constitutes ac
 
 ## Contact
 
-[raylenzed@gmail.com](mailto:raylenzed@gmail.com)
+[hello@openrowan.com](mailto:hello@openrowan.com)

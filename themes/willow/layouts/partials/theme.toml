@@ -1,9 +1,0 @@
-name = "Willow"
-license = "MIT"
-licenselink = "https://github.com/RaylenZed/openwillow/blob/main/LICENSE"
-description = "OpenWillow Studio theme"
-homepage = "https://openwillow.dev"
-min_version = "0.120.0"
-
-[author]
-  name = "RaylenZed"

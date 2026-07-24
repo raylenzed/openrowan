@@ -32,4 +32,4 @@ We may update these Terms. Continued use after changes constitutes acceptance.
 
 ## Contact
 
-[raylenzed@gmail.com](mailto:raylenzed@gmail.com)
+[hello@openrowan.com](mailto:hello@openrowan.com)

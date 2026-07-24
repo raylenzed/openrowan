@@ -50,4 +50,4 @@ Completely. There is no account, no sync and no server — the only network use 
 
 ## Contact
 
-Need more help? Email **raylenzed@gmail.com** and include your iOS version and a short description of the issue. We usually reply within 2-3 business days.
+Need more help? Email **hello@openrowan.com** and include your iOS version and a short description of the issue. We usually reply within 2-3 business days.

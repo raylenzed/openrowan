@@ -8,7 +8,7 @@ last_updated: "2026-03-25"
 
 ## Get Help
 
-**Email:** [raylenzed@gmail.com](mailto:raylenzed@gmail.com)
+**Email:** [hello@openrowan.com](mailto:hello@openrowan.com)
 
 We typically respond within 1–2 business days.
 

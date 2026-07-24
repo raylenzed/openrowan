@@ -1,14 +1,14 @@
 baseURL = "https://openrowan.com/"
 languageCode = "en-us"
 title = "OpenRowan Studio"
-theme = "willow"
+theme = "rowan"
 disablePathToLower = true
 
 [params]
   studioName = "OpenRowan"
   tagline = "Indie apps, thoughtfully made."
   author = "RaylenZed"
-  email = "raylenzed@gmail.com"
+  email = "hello@openrowan.com"
   github = "https://github.com/RaylenZed"
   description = "OpenRowan is an indie app studio building focused, beautiful apps for iOS."
 

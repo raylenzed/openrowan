@@ -64,4 +64,4 @@ We will post any updates here with a revised "Last updated" date.
 
 ## Contact
 
-**Email:** [raylenzed@gmail.com](mailto:raylenzed@gmail.com)
+**Email:** [hello@openrowan.com](mailto:hello@openrowan.com)

@@ -49,4 +49,4 @@ We may update these Terms. We will post any updates here with a revised "Last up
 
 ## Contact
 
-[raylenzed@gmail.com](mailto:raylenzed@gmail.com)
+[hello@openrowan.com](mailto:hello@openrowan.com)
