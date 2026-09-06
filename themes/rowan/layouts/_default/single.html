@@ -3,7 +3,7 @@
   <div class="legal-inner">
     <div class="legal-header">
       {{ with .Params.app_name }}
-      <a href="/apps/{{ anchorize . }}/" class="legal-back">← {{ . }}</a>
+      <a href="/apps/{{ $.Params.app_slug | default (anchorize .) }}/" class="legal-back">← {{ . }}</a>
       {{ end }}
       <h1 class="legal-title">{{ .Title }}</h1>
       {{ with .Params.last_updated }}

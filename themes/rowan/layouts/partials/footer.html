@@ -5,7 +5,7 @@
       <p class="footer-copy">© {{ now.Year }} {{ .Site.Params.author }}. All rights reserved.</p>
     </div>
     <div class="footer-right">
-      <a href="mailto:{{ .Site.Params.email }}">{{ .Site.Params.email }}</a>
+      <a href="mailto:{{ .Params.support_email | default .Site.Params.email }}">{{ .Params.support_email | default .Site.Params.email }}</a>
       <a href="{{ .Site.Params.github }}" target="_blank" rel="noopener">GitHub</a>
     </div>
   </div>

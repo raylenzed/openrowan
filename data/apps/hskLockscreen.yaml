@@ -1,0 +1,29 @@
+name: "HSK Lockscreen"
+slug: "hskLockscreen"
+tagline: "HSK vocabulary, a glance away."
+description: "Review HSK 2.0 vocabulary on your Lock Screen or Home Screen. Browse words, hear Mandarin pronunciation, save favorites and choose a daily, 12-hour or 6-hour rotation. HSK 1–2 are free; an optional one-time Pro purchase unlocks HSK 3–6. English and Simplified Chinese menus. Preparing for App Store release."
+platform: "iOS / iPadOS 17+"
+price: "Free + one-time Pro"
+version: "1.0.2"
+featured: false
+icon: "/images/apps/hsk-lockscreen.png"
+appstore_url: ""
+support_email: "raylenzed@gmail.com"
+
+# App behavior checked against the local HSK source on 2026-09-06.
+collects_analytics: false
+collects_crash_reports: false
+apple_opt_in_diagnostics: true
+collects_camera: false
+collects_photo_library: false
+collects_location: false
+collects_contacts: false
+collects_microphone: false
+has_account_system: false
+has_subscription: false
+has_iap: true
+stores_data_locally: true
+stores_data_on_server: false
+sends_content_to_ai: false
+third_party_sdks: []
+child_directed: false
