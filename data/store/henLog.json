@@ -1,0 +1,33 @@
+{
+  "store_name": "HenLog – Flock & Egg Tracker",
+  "price": "Free",
+  "appstore_url": "https://apps.apple.com/us/app/henlog-flock-egg-tracker/id6789515325",
+  "version": "1.0",
+  "updated": "2026-07-15",
+  "released": "2026-07-15",
+  "genre": "Lifestyle",
+  "min_ios": "17.0",
+  "summary": "HenLog is the 30-second flock ledger for backyard chicken keepers. Collect the eggs, tap the big button, done — HenLog turns your daily count into weekly, monthly and yearly totals, lay-rate trends, and a simple answer to the question every chicken keeper asks: is this flock paying for itself?",
+  "features": [
+    "One big button on the Today screen: +1 per egg, minus to correct, or type the total",
+    "Per-flock counting with a quick flock switcher",
+    "Today, last-7-days and lay-rate summary at a glance",
+    "Daily egg chart with a 7-day moving average",
+    "Weekly, monthly and yearly totals",
+    "Lay rate (eggs per hen), daily average and best day",
+    "Spot molting, winter slowdowns and problems early",
+    "Flock and hen profiles: breed, joined date, photo and notes"
+  ],
+  "icon": "/images/apps/henLog.webp",
+  "screenshots": [
+    "/images/apps/henLog-1.webp",
+    "/images/apps/henLog-2.webp",
+    "/images/apps/henLog-3.webp"
+  ],
+  "icon_source": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/d2/46/69/d2466969-c2b8-2e99-4a4f-9462983ba138/AppIcon-0-0-1x_U007epad-0-1-85-220.png/256x256bb.webp",
+  "screenshot_sources": [
+    "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/96/ab/bc/96abbcc2-f42a-8c26-17dc-af3b22f4ea38/iPhone_17_Pro_Max-01_Today.png/600x0w.webp",
+    "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/1b/0d/9f/1b0d9ff0-5c56-393d-ee74-45a313fd9df4/iPhone_17_Pro_Max-02_Trends.png/600x0w.webp",
+    "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/28/7e/6d/287e6db9-477b-fb11-db0e-e16c538bc577/iPhone_17_Pro_Max-03_Ledger.png/600x0w.webp"
+  ]
+}

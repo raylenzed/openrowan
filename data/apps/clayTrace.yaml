@@ -1,0 +1,15 @@
+# Editorial fields, written by scripts/add_app.py or by hand.
+# App Store fields (price, link, icon, screenshots, version) live in
+# data/store/<slug>.json and are refreshed daily by scripts/sync_apps.py.
+name: "ClayTrace"
+slug: "clayTrace"
+bundle_id: "com.raylenzed.claytrace"
+asc_app_id: "6776942120"
+storefront: "cn"
+status: "live"   # coming_soon | live | hidden
+category: "makers"
+tagline: "Pottery log · 陶艺记录"
+featured: false
+order: 10
+unlock_price: ""
+store_label: "China"

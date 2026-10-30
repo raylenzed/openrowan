@@ -1,0 +1,18 @@
+# Homepage groups, in display order. `tab` is the label in the hero picker.
+list:
+  - id: keepers
+    title: "For keepers"
+    tab: "Keepers"
+    blurb: "Hives, flocks and reef tanks."
+  - id: makers
+    title: "For makers"
+    tab: "Makers"
+    blurb: "Clay, yarn, dough, threads and tile."
+  - id: move
+    title: "On the move"
+    tab: "On the move"
+    blurb: "Runs, rides and road trips."
+  - id: home
+    title: "At home"
+    tab: "At home"
+    blurb: "Cards, remotes, words and bedtime."

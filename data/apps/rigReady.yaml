@@ -1,0 +1,14 @@
+# Editorial fields, written by scripts/add_app.py or by hand.
+# App Store fields (price, link, icon, screenshots, version) live in
+# data/store/<slug>.json and are refreshed daily by scripts/sync_apps.py.
+name: "RigReady"
+slug: "rigReady"
+bundle_id: "com.raylenzed.rigready"
+asc_app_id: "6786745088"
+storefront: "us"
+status: "live"   # coming_soon | live | hidden
+category: "move"
+tagline: "RV checklists"
+featured: true
+order: 10
+unlock_price: "$5.99"

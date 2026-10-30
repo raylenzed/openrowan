@@ -1,0 +1,11 @@
+{{ define "main" }}
+<section class="wrap section">
+<h1 class="h2">{{ .Title }}</h1>
+{{- with .Content }}
+<div class="doc-body">{{ . }}</div>
+{{- end }}
+{{- range .Pages }}
+<p><a href="{{ .RelPermalink }}">{{ .Title }}</a></p>
+{{- end }}
+</section>
+{{ end }}

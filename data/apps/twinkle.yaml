@@ -1,13 +1,18 @@
+# Editorial fields, written by scripts/add_app.py or by hand.
+# App Store fields (price, link, icon, screenshots, version) live in
+# data/store/<slug>.json and are refreshed daily by scripts/sync_apps.py.
 name: "Twinkle"
 slug: "twinkle"
-tagline: "Bedtime stories, made just for them."
+bundle_id: "com.raylenzed.twinkle"
+asc_app_id: "6761061989"
+storefront: "us"
+status: "live"   # coming_soon | live | hidden
+category: "home"
+tagline: "Offline bedtime stories"
+featured: false
+order: 30
+unlock_price: "$4.99"
 description: "Twinkle helps parents build a calmer bedtime routine with 121 gentle, offline stories for kids. Enter a child's name, choose favorite themes, listen with built-in narration, and save favorites for repeat nights. First 3 stories are free; unlock the full bedtime library with a single one-time purchase."
-platform: "iOS"
-price: "$4.99 one-time"
-version: "2.1.0"
-featured: true
-icon: ""
-appstore_url: "https://apps.apple.com/us/app/twinkle-story/id6761061989"
 
 # Privacy policy generation inputs
 collects_analytics: false

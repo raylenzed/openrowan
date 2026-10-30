@@ -1,13 +1,18 @@
+# Editorial fields, written by scripts/add_app.py or by hand.
+# App Store fields (price, link, icon, screenshots, version) live in
+# data/store/<slug>.json and are refreshed daily by scripts/sync_apps.py.
 name: "TileCalc"
 slug: "tileCalc"
-tagline: "Calculate tiles. Skip the waste."
-description: "TileCalc is a precise tile and flooring calculator for homeowners, contractors, and designers. Enter your room dimensions, choose your tile size and pattern, and instantly get material quantities with waste buffer. All calculations happen on-device—no account, no internet required."
-platform: "iOS"
-price: "$1.99"
-version: "1.0.0"
+bundle_id: "com.raylenzed.tilecalc"
+asc_app_id: "6761092447"
+storefront: "us"
+status: "live"   # coming_soon | live | hidden
+category: "makers"
+tagline: "Tile, box and grout calculator"
 featured: false
-icon: ""
-appstore_url: ""
+order: 50
+unlock_price: ""
+description: "TileCalc is a precise tile and flooring calculator for homeowners, contractors, and designers. Enter your room dimensions, choose your tile size and pattern, and instantly get material quantities with waste buffer. All calculations happen on-device—no account, no internet required."
 
 # Privacy policy generation inputs
 collects_analytics: false

@@ -1,0 +1,30 @@
+{
+  "store_name": "KnitCount - Knitting Counter",
+  "price": "$2.99",
+  "appstore_url": "https://apps.apple.com/us/app/knitcount-knitting-counter/id6761709235",
+  "version": "1.0",
+  "updated": "2026-04-08",
+  "released": "2026-04-08",
+  "genre": "Lifestyle",
+  "min_ios": "17.0",
+  "summary": "KnitCount is the no-fuss row and stitch counter built for knitters and crocheters who can't afford to lose their place.",
+  "features": [
+    "Screen stays awake while you work — no more waking your phone mid-row",
+    "Instant undo after a mis-tap — one tap corrects your last count",
+    "Multiple counters per project — track rows, pattern repeats, and increases all at once",
+    "Custom step sizes — count by 2s, 4s, or any number for complex patterns",
+    "Organize by project — switch between your sweater, socks, and blanket in seconds"
+  ],
+  "icon": "/images/apps/knitcount.webp",
+  "screenshots": [
+    "/images/apps/knitcount-1.webp",
+    "/images/apps/knitcount-2.webp",
+    "/images/apps/knitcount-3.webp"
+  ],
+  "icon_source": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/2c/bb/19/2cbb199e-7847-aafe-d3fa-027580258f10/AppIcon-0-0-1x_U007epad-0-1-85-220.png/256x256bb.webp",
+  "screenshot_sources": [
+    "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/3a/91/ad/3a91adb1-6c03-077c-4bc9-c70ed1b42c4e/iPhone_17_Pro_Max-01_ProjectList.png/600x0w.webp",
+    "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/96/14/2b/96142b6a-de0c-d268-9bae-111889ee1065/iPhone_17_Pro_Max-02_CountingView.png/600x0w.webp",
+    "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/ef/89/01/ef89015e-d2cf-3e9f-052c-7f07089a9f88/iPhone_17_Pro_Max-03_UndoBar.png/600x0w.webp"
+  ]
+}

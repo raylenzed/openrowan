@@ -1,0 +1,14 @@
+# Editorial fields, written by scripts/add_app.py or by hand.
+# App Store fields (price, link, icon, screenshots, version) live in
+# data/store/<slug>.json and are refreshed daily by scripts/sync_apps.py.
+name: "ReefLog"
+slug: "reefLog"
+bundle_id: "com.raylenzed.reeflog"
+asc_app_id: "6761686043"
+storefront: "us"
+status: "live"   # coming_soon | live | hidden
+category: "keepers"
+tagline: "Reef tank tracker"
+featured: false
+order: 30
+unlock_price: ""

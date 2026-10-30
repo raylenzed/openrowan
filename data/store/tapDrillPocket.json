@@ -1,0 +1,33 @@
+{
+  "store_name": "Tap Drill Pocket",
+  "price": "$2.99",
+  "appstore_url": "https://apps.apple.com/us/app/tap-drill-pocket/id6763918301",
+  "version": "1.0.0",
+  "updated": "2026-04-28",
+  "released": "2026-04-28",
+  "genre": "Utilities",
+  "min_ios": "17.0",
+  "summary": "Stop hunting through oily wall charts and half-broken calculators. Tap Drill Pocket gives machinists the tap drill, form tap, and clearance hole sizes they need in seconds.",
+  "features": [
+    "Cut tap drill recommendations with adjustable thread percentage",
+    "Form tap drill calculations",
+    "Clearance hole fit options: close, normal, free",
+    "Inch, metric, UNC, UNF, NPT, NPS and common machine screw threads",
+    "Number, letter, fractional, and metric drill sizes",
+    "Custom drill kit: show the nearest sizes you actually own",
+    "Favorites and recent threads for repeated shop work",
+    "Works completely offline, with no account and no subscription"
+  ],
+  "icon": "/images/apps/tapDrillPocket.webp",
+  "screenshots": [
+    "/images/apps/tapDrillPocket-1.webp",
+    "/images/apps/tapDrillPocket-2.webp",
+    "/images/apps/tapDrillPocket-3.webp"
+  ],
+  "icon_source": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/72/30/69/723069c9-b1b4-08b5-9a03-b77ade443e82/AppIcon-0-0-1x_U007ephone-0-1-85-220.png/256x256bb.webp",
+  "screenshot_sources": [
+    "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/c0/f0/f9/c0f0f974-c01c-a39a-6ac1-6fc02ee70f1d/iPhone_17_Pro_Max-01_Lookup.png/600x0w.webp",
+    "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/52/e2/74/52e2746b-90b2-55bf-8a24-2debca959313/iPhone_17_Pro_Max-02_Result_Saved.png/600x0w.webp",
+    "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/a5/a3/7a/a5a37a50-3968-7ce9-a048-404ec908ddf9/iPhone_17_Pro_Max-03_Drill_Kit.png/600x0w.webp"
+  ]
+}

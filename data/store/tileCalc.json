@@ -1,0 +1,33 @@
+{
+  "store_name": "TileCalc - Tile Calculator",
+  "price": "$1.99",
+  "appstore_url": "https://apps.apple.com/us/app/tilecalc-tile-calculator/id6761092447",
+  "version": "2.0",
+  "updated": "2026-03-27",
+  "released": "2026-03-25",
+  "genre": "Utilities",
+  "min_ios": "17.0",
+  "summary": "TileCalc is the fastest way to calculate exactly how many tiles you need for any room — no guesswork, no waste.",
+  "features": [
+    "Tiles needed with wastage buffer (default 10%)",
+    "Boxes to buy based on your tile box size",
+    "Grout quantity estimate",
+    "Supports both Imperial (ft/in) and Metric (m/cm)",
+    "PDF Export — share detailed reports with clients & suppliers",
+    "Lumber Calculator — board feet for any board size",
+    "Concrete Calculator — cubic yards and bag count",
+    "Paint Calculator — gallons and coats"
+  ],
+  "icon": "/images/apps/tileCalc.webp",
+  "screenshots": [
+    "/images/apps/tileCalc-1.webp",
+    "/images/apps/tileCalc-2.webp",
+    "/images/apps/tileCalc-3.webp"
+  ],
+  "icon_source": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/de/a3/a8/dea3a846-6f96-a881-d21a-0dbab1d073e4/AppIcon-0-0-1x_U007ephone-0-1-85-220.png/256x256bb.webp",
+  "screenshot_sources": [
+    "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/3a/60/bb/3a60bbac-f22c-1cf4-9bb9-c5adbbd6ed40/01_tile_empty-iphone-17-pro-max.png/600x0w.webp",
+    "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/99/9a/0a/999a0a3d-48f5-0f2d-7d05-65db9fd1d707/01_tile_result-iphone-17-pro-max.png/600x0w.webp",
+    "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/22/99/9a/22999a9b-8ea1-a4f4-7af2-221ebadd1094/02_material_picker-iphone-17-pro-max.png/600x0w.webp"
+  ]
+}

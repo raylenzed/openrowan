@@ -3,40 +3,44 @@ aliases: ["/apps/prooftime/support/"]
 title: "Support"
 app_name: "ProofTime"
 app_slug: "proofTime"
-last_updated: "2026-03-25"
+last_updated: "2026-10-30"
 ---
 
 ## Get Help
 
 **Email:** [hello@openrowan.com](mailto:hello@openrowan.com)
 
-We typically respond within 1–2 business days.
+We typically respond within 1–2 business days. If you are reporting a problem, please include your iPhone model and iOS version.
 
 ## Frequently Asked Questions
 
-### How do I create a proof record?
+### How does ProofTime estimate bulk fermentation time?
 
-Tap the camera button on the main screen. Capture a photo or video — the timestamp and GPS coordinates are embedded automatically. Your record is saved immediately.
+Enter your room temperature, how much levain you are using and how active your starter is. ProofTime turns these into an estimated time window. Fermentation is biological, so treat the result as a guide: watch the dough, not just the clock.
 
-### Where are my records stored?
+### Will the timer alert me when it finishes?
 
-All records are stored locally on your device. If you have iCloud Photos enabled, they sync to your iCloud account. We never upload your records to our servers.
+No. The countdown runs on screen while ProofTime is open, and the App does not send notifications. If you will be away from your phone, set an alarm for the end time shown. If iOS closes the App in the background, the countdown resets.
 
-### Can I use these records as legal evidence?
+### Which units does ProofTime support?
 
-ProofTime creates accurate timestamps and GPS-tagged records, but legal admissibility varies by jurisdiction and case. Consult a legal professional if you need records for legal proceedings.
+Temperature can be shown in °F or °C. The dough and feeding calculators work in grams.
 
-### The timestamp looks wrong. What should I do?
+### How do I use the feeding calculator?
 
-The timestamp is pulled from your device clock. Make sure "Set Automatically" is enabled in Settings → General → Date & Time.
+Pick a feed ratio such as 1:1:1, 1:2:2 or 1:5:5, enter the final weight you want, and ProofTime shows the exact grams of starter, flour and water.
 
-### Can I export my records?
+### Can I save more than one starter?
 
-Yes — records are standard photos/videos in your photo library. You can share, export, or back them up through the Photos app.
+Yes. In My Starters you can save several profiles, each with a name, hydration percentage, activity level and notes. Swipe left on a starter to delete it.
 
-### I lost my records after reinstalling. Can I recover them?
+### Does ProofTime need an internet connection?
 
-If you had iCloud Photos enabled, your records should be in your iCloud Photos library. If not, records stored only in local storage are lost when the app is deleted — iCloud backup can prevent this.
+No. Every calculation happens on your device, and the App works fully offline.
+
+### I reinstalled the App and my starters are gone.
+
+Starter profiles are stored only on your device, so deleting the App removes them. Restoring your iPhone from an iCloud or computer backup made before you deleted the App can bring them back.
 
 ### How do I request a refund?
 
@@ -44,4 +48,4 @@ Refunds are handled by Apple. Visit [reportaproblem.apple.com](https://reportapr
 
 ## Privacy & Data
 
-See our [Privacy Policy](/apps/proofTime/privacy/) for full details.
+ProofTime collects no data. See the [Privacy Policy](/apps/proofTime/privacy/) for details.

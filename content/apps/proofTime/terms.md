@@ -3,7 +3,7 @@ aliases: ["/apps/prooftime/terms/"]
 title: "Terms of Service"
 app_name: "ProofTime"
 app_slug: "proofTime"
-last_updated: "2026-03-25"
+last_updated: "2026-10-30"
 ---
 
 ## Agreement
@@ -17,11 +17,10 @@ Leilei Zhang grants you a personal, non-exclusive, non-transferable license to u
 You may not:
 - Reverse engineer or attempt to extract the source code
 - Use the App for any unlawful purpose
-- Use proof records in ways that misrepresent events or deceive others
 
-## No Legal Guarantee
+## Estimates, Not Guarantees
 
-ProofTime creates timestamped photo and location records to help document your work. However, **we make no representation that proof records created by the App will be accepted as legal evidence in any jurisdiction or proceeding.** The legal admissibility of digital records varies by jurisdiction and context.
+ProofTime provides fermentation time estimates and ingredient calculations to help with sourdough baking. Fermentation depends on many things the App cannot measure, including flour, water temperature, starter health and kitchen conditions. **Times and quantities are guides only.** Judge your dough by how it looks and behaves, and use your own judgment on food safety.
 
 ## Disclaimer of Warranties
 
@@ -29,11 +28,11 @@ The App is provided "as is" and "as available." We disclaim all warranties, expr
 
 ## Limitation of Liability
 
-To the maximum extent permitted by applicable law, Leilei Zhang shall not be liable for any indirect, incidental, special, consequential, or punitive damages, including loss of data or records, arising from your use of the App.
+To the maximum extent permitted by applicable law, Leilei Zhang shall not be liable for any indirect, incidental, special, consequential, or punitive damages, including loss of data or ingredients, arising from your use of the App.
 
 ## Your Responsibility
 
-You are solely responsible for the proof records you create and how you use them. You must comply with all applicable laws, including privacy laws when photographing or recording others.
+You are responsible for how you use the App's estimates and calculations in your baking.
 
 ## Changes
 

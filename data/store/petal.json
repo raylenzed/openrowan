@@ -1,0 +1,32 @@
+{
+  "store_name": "Petal: Prepaid Card Tracker",
+  "price": "$4.99",
+  "appstore_url": "https://apps.apple.com/us/app/petal-prepaid-card-tracker/id6787485851",
+  "version": "1.0",
+  "updated": "2026-08-04",
+  "released": "2026-08-04",
+  "genre": "Lifestyle",
+  "min_ios": "17.0",
+  "summary": "Petal is a private tracker for prepaid service cards: nail passes, lash packages, beauty stored-value cards, gym memberships, swim cards, foot care plans, and other repeat-visit services.",
+  "features": [
+    "Open count cards, stored-value cards, and period memberships",
+    "Record top-ups, bonus value, opening dates, visit dates, and real payment amounts",
+    "Log visits with specialist or coach, rating, notes, and optional photo receipts",
+    "Complete a booking and turn it into a visit record automatically",
+    "Let smart booking reminders learn from your store and service habits",
+    "Review category spending, visit counts, total paid, card usage rate, and unused cards",
+    "Keep everything local, with optional iCloud backup and restore"
+  ],
+  "icon": "/images/apps/petal.webp",
+  "screenshots": [
+    "/images/apps/petal-1.webp",
+    "/images/apps/petal-2.webp",
+    "/images/apps/petal-3.webp"
+  ],
+  "icon_source": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/8e/87/30/8e87305b-0c54-1550-f0a2-956eeedc471c/AppIcon-0-0-1x_U007ephone-0-1-0-85-220.png/256x256bb.webp",
+  "screenshot_sources": [
+    "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/53/f3/fc/53f3fca6-2974-aeb1-abad-550cd8123f74/01-01-cards.jpg/600x0w.webp",
+    "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/ab/40/6f/ab406f66-769d-b8c0-181f-2fe00886b332/02-02-card-detail.jpg/600x0w.webp",
+    "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/10/26/96/102696ed-ad4a-1abc-7112-365d7a29a1c2/03-03-appointments.jpg/600x0w.webp"
+  ]
+}

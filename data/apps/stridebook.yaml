@@ -1,0 +1,14 @@
+# Editorial fields, written by scripts/add_app.py or by hand.
+# App Store fields (price, link, icon, screenshots, version) live in
+# data/store/<slug>.json and are refreshed daily by scripts/sync_apps.py.
+name: "Stridebook"
+slug: "stridebook"
+bundle_id: "com.raylenzed.stridebook"
+asc_app_id: "6824153990"
+storefront: "us"
+status: "live"   # coming_soon | live | hidden
+category: "move"
+tagline: "Running log"
+featured: false
+order: 20
+unlock_price: "$7.99"

@@ -1,0 +1,7 @@
+{{- /* Every app shown on the site (live or coming soon), sorted by `order`. */ -}}
+{{- $apps := slice -}}
+{{- range $slug, $_ := site.Data.apps -}}
+  {{- $app := partial "app.html" $slug -}}
+  {{- if in (slice "live" "coming_soon") $app.status }}{{ $apps = $apps | append $app }}{{ end -}}
+{{- end -}}
+{{- return sort $apps "order" -}}

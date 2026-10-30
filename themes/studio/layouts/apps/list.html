@@ -1,0 +1,86 @@
+{{ define "main" }}
+{{- $slug := "" -}}
+{{- with .File }}{{ $slug = path.Base .Dir }}{{ end -}}
+{{- $app := dict -}}
+{{- if and $slug (index site.Data.apps $slug) }}{{ $app = partial "app.html" $slug }}{{ end -}}
+
+{{- if in (slice "live" "coming_soon") $app.status }}
+<article class="wrap app-page">
+<a class="crumb" href="/#apps">{{ partial "icons/back.html" . }}All apps</a>
+<header class="app-hero">
+{{ partial "app-icon.html" (dict "app" $app "size" 144) }}
+<div class="app-hero-text">
+<h1 class="app-title">{{ $app.name }}</h1>
+<p class="app-tagline">{{ $app.tagline }}</p>
+<div class="pills">
+{{- range first 1 (where site.Data.categories.list "id" $app.category) }}<span class="pill">{{ .title }}</span>{{ end }}
+{{- with $app.price }}<span class="pill">{{ . }}</span>{{ end }}
+{{- with $app.store.version }}<span class="pill">Version {{ . }}</span>{{ end }}
+{{- with $app.store.min_ios }}<span class="pill">iOS {{ . }} or later</span>{{ end }}
+</div>
+</div>
+<div class="app-cta">
+{{- with $app.store_url }}
+<a class="btn btn-lg" href="{{ . }}" rel="noopener">View on the App Store{{ partial "icons/arrow.html" (dict "size" 16) }}</a>
+{{- else }}
+<span class="soon-badge">Coming soon to the App Store</span>
+{{- end }}
+</div>
+</header>
+
+{{- with $app.store.screenshots }}
+<div class="shots" role="list" aria-label="Screenshots">
+{{- range $i, $src := . }}
+<img role="listitem" src="{{ $src }}" alt="{{ $app.name }} screenshot {{ add $i 1 }}" loading="lazy" decoding="async">
+{{- end }}
+</div>
+{{- end }}
+
+<div class="app-body">
+<div class="app-about reveal">
+<h2 class="app-sub">About {{ $app.name }}</h2>
+<p>{{ $app.data.description | default $app.store.summary | default $app.tagline }}</p>
+{{- with $app.store.features }}
+<h2 class="app-sub">What it does</h2>
+<ul class="features">
+{{- range . }}
+<li>{{ . }}</li>
+{{- end }}
+</ul>
+{{- end }}
+</div>
+<aside class="app-side reveal" aria-label="Privacy and support">
+<h2 class="app-sub">Privacy and support</h2>
+{{- range $name := slice "privacy" "terms" "support" }}
+{{- with site.GetPage (printf "/apps/%s/%s" $slug $name) }}
+<a class="doc-link" href="{{ .RelPermalink }}"><span>{{ .Title }}</span>{{ partial "icons/arrow.html" (dict "size" 14) }}</a>
+{{- end }}
+{{- end }}
+<a class="doc-link" href="mailto:{{ $app.data.support_email | default site.Params.email }}"><span>Email the developer</span>{{ partial "icons/arrow.html" (dict "size" 14) }}</a>
+</aside>
+</div>
+</article>
+
+{{- else if not $slug }}
+{{- $apps := partial "apps.html" . }}
+<section class="wrap section app-index">
+<div class="section-head">
+<h1 class="h2">All apps</h1>
+<p class="lede">Prices from the US App Store unless noted.</p>
+</div>
+<div class="cards cards-wide">
+{{- range $apps }}
+<div class="reveal">{{ partial "app-card.html" . }}</div>
+{{- end }}
+</div>
+</section>
+
+{{- else }}
+<section class="wrap section">
+<h1 class="h2">{{ .Title }}</h1>
+{{- range .Pages }}
+<p><a href="{{ .RelPermalink }}">{{ .Title }}</a></p>
+{{- end }}
+</section>
+{{- end }}
+{{ end }}

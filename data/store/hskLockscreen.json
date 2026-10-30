@@ -1,0 +1,32 @@
+{
+  "store_name": "HSK Lockscreen",
+  "price": "Free",
+  "appstore_url": "https://apps.apple.com/us/app/hsk-lockscreen/id6809129772",
+  "version": "1.0.2",
+  "updated": "2026-09-21",
+  "released": "2026-09-21",
+  "genre": "Education",
+  "min_ios": "17.0",
+  "summary": "HSK Lockscreen puts one exam word on your iPhone Lock Screen and Home Screen.",
+  "features": [
+    "HSK 1 and HSK 2 lists",
+    "Lock Screen widgets: rectangular, inline, circular",
+    "Home Screen widgets: small and medium",
+    "Browse by level, search, and favorites",
+    "Choose the levels to review on your widget",
+    "Unlock HSK 3–6 word lists, meanings, pronunciation, favorites and widgets",
+    "Restore purchases using the same Apple Account"
+  ],
+  "icon": "/images/apps/hskLockscreen.webp",
+  "screenshots": [
+    "/images/apps/hskLockscreen-1.webp",
+    "/images/apps/hskLockscreen-2.webp",
+    "/images/apps/hskLockscreen-3.webp"
+  ],
+  "icon_source": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/f3/26/7b/f3267b2f-5f58-4143-84d2-f2b27ba58050/AppIcon-0-0-1x_U007epad-0-1-85-220.png/256x256bb.webp",
+  "screenshot_sources": [
+    "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/28/d2/1d/28d21d89-1cab-fb9b-f9da-60b638e2bd06/01-widget.png/600x0w.webp",
+    "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/04/1e/be/041ebec0-b31b-0c2e-184a-0199c879c63a/02-levels.png/600x0w.webp",
+    "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/1f/b7/d0/1fb7d0a1-81e1-6eec-680c-99c91dd0a514/03-word.png/600x0w.webp"
+  ]
+}

@@ -1,0 +1,33 @@
+{
+  "store_name": "Chainline: Bike Maintenance",
+  "price": "Free",
+  "appstore_url": "https://apps.apple.com/us/app/chainline-bike-maintenance/id6824192570",
+  "version": "1.0",
+  "updated": "2026-10-20",
+  "released": "2026-10-20",
+  "genre": "Health & Fitness",
+  "min_ios": "17.0",
+  "summary": "Chainline keeps track of what wears out on every bike you own — and tells you before a worn chain eats your cassette.",
+  "features": [
+    "Chain, cassette, chainrings, tyres, brake pads, sealant, cables, bar tape, suspension service, bearings",
+    "Wear by distance or by time, with a bar that turns amber when a part is due and red when it's time to replace",
+    "Starting limits for each part that you can change; check real wear with a chain checker too",
+    "Enter rides or set the odometer from your bike computer",
+    "Or import cycling workouts from Apple Health — Apple Watch, iPhone, or apps that save to Health",
+    "Nothing leaves your iPhone",
+    "Every bike in the garage, kids' bikes included",
+    "Replace a part in one swipe — the service is logged for you"
+  ],
+  "icon": "/images/apps/chainline.webp",
+  "screenshots": [
+    "/images/apps/chainline-1.webp",
+    "/images/apps/chainline-2.webp",
+    "/images/apps/chainline-3.webp"
+  ],
+  "icon_source": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/7e/a9/77/7ea977fd-0fa5-dbbd-8317-f8c1204d2246/AppIcon-0-0-1x_U007epad-0-1-85-220.png/256x256bb.webp",
+  "screenshot_sources": [
+    "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/3d/ae/6c/3dae6c3c-628c-c37b-48e8-7139975cec10/iPhone_17_Pro_Max-01_Garage.png/600x0w.webp",
+    "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/99/f9/ea/99f9eaff-9227-1b47-bdc5-04327f5c4d8c/iPhone_17_Pro_Max-02_BikeParts.png/600x0w.webp",
+    "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/43/a5/c9/43a5c92b-f61f-04c9-cb92-428dc5f2f58a/iPhone_17_Pro_Max-03_AddPart.png/600x0w.webp"
+  ]
+}

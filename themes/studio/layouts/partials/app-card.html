@@ -1,0 +1,13 @@
+<article class="card">
+{{ partial "app-icon.html" (dict "app" . "size" 64 "lazy" true) }}
+<div class="card-text">
+<h4 class="card-name"><a href="{{ .url }}">{{ .name }}</a></h4>
+<p class="card-tag">{{ .tagline }}</p>
+</div>
+<div class="card-foot">
+<span class="card-price{{ if eq .status "coming_soon" }} is-soon{{ end }}">{{ .price }}</span>
+{{- with .store_url }}
+<a class="store-link" href="{{ . }}" rel="noopener">App Store{{ partial "icons/arrow.html" (dict "size" 12) }}</a>
+{{- end }}
+</div>
+</article>

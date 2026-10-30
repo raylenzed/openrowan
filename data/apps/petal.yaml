@@ -1,0 +1,14 @@
+# Editorial fields, written by scripts/add_app.py or by hand.
+# App Store fields (price, link, icon, screenshots, version) live in
+# data/store/<slug>.json and are refreshed daily by scripts/sync_apps.py.
+name: "Petal"
+slug: "petal"
+bundle_id: "com.summer.petal"
+asc_app_id: "6787485851"
+storefront: "us"
+status: "live"   # coming_soon | live | hidden
+category: "home"
+tagline: "Prepaid card tracker"
+featured: false
+order: 10
+unlock_price: ""

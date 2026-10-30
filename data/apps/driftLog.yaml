@@ -1,0 +1,14 @@
+# Editorial fields, written by scripts/add_app.py or by hand.
+# App Store fields (price, link, icon, screenshots, version) live in
+# data/store/<slug>.json and are refreshed daily by scripts/sync_apps.py.
+name: "DriftLog"
+slug: "driftLog"
+bundle_id: "com.raylenzed.driftlog"
+asc_app_id: "6788061338"
+storefront: "us"
+status: "hidden"   # coming_soon | live | hidden
+category: "makers"
+tagline: "Watch accuracy log"
+featured: false
+order: 60
+unlock_price: ""

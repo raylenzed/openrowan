@@ -1,0 +1,15 @@
+# Editorial fields, written by scripts/add_app.py or by hand.
+# App Store fields (price, link, icon, screenshots, version) live in
+# data/store/<slug>.json and are refreshed daily by scripts/sync_apps.py.
+name: "Encore"
+slug: "encore"
+bundle_id: "com.raylenzed.encore"
+asc_app_id: "6828364879"
+storefront: "us"
+status: "coming_soon"   # coming_soon | live | hidden; sync shows it as live once it is on the App Store
+category: "home"
+tagline: "Remote for Harmony Hub"
+featured: false
+order: 40
+unlock_price: "$7.99"
+local_icon: "/images/apps/encore-local.png"

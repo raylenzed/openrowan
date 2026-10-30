@@ -1,26 +1,33 @@
+# Editorial fields, written by scripts/add_app.py or by hand.
+# App Store fields (price, link, icon, screenshots, version) live in
+# data/store/<slug>.json and are refreshed daily by scripts/sync_apps.py.
 name: "ProofTime"
 slug: "proofTime"
-tagline: "Timestamp your work. Prove it happened."
-description: "ProofTime lets you capture timestamped photo and video proof of your work—ideal for contractors, freelancers, and anyone who needs a reliable record. One tap creates an immutable record with GPS coordinates and exact time. No subscription, no cloud, no nonsense."
-platform: "iOS"
-price: "$1.99"
-version: "1.0.0"
+bundle_id: "com.raylenzed.prooftime"
+asc_app_id: "6761090248"
+storefront: "us"
+status: "live"   # coming_soon | live | hidden
+category: "makers"
+tagline: "Sourdough proofing timer"
 featured: false
-icon: ""
-appstore_url: ""
+order: 40
+unlock_price: ""
 
-# Privacy policy generation inputs
+# Privacy policy generation inputs (checked against the ProofTime source on 2026-10-30:
+# settings and starter profiles in UserDefaults, no network, no permissions, no SDKs)
 collects_analytics: false
-collects_crash_reports: true
-collects_camera: true
-collects_photo_library: true
-collects_location: true
+collects_crash_reports: false
+apple_opt_in_diagnostics: true
+collects_camera: false
+collects_photo_library: false
+collects_location: false
 collects_contacts: false
+collects_microphone: false
 has_account_system: false
 has_subscription: false
 has_iap: false
 stores_data_locally: true
 stores_data_on_server: false
+sends_content_to_ai: false
 third_party_sdks: []
-location_purpose: "Embed GPS coordinates into proof records"
-camera_purpose: "Capture timestamped photo and video proof"
+child_directed: false

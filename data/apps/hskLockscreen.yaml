@@ -1,13 +1,19 @@
+# Editorial fields, written by scripts/add_app.py or by hand.
+# App Store fields (price, link, icon, screenshots, version) live in
+# data/store/<slug>.json and are refreshed daily by scripts/sync_apps.py.
 name: "HSK Lockscreen"
 slug: "hskLockscreen"
-tagline: "HSK vocabulary, a glance away."
-description: "Review HSK 2.0 vocabulary on your Lock Screen or Home Screen. Browse words, hear Mandarin pronunciation, save favorites and choose a daily, 12-hour or 6-hour rotation. HSK 1–2 are free; an optional one-time Pro purchase unlocks HSK 3–6. English and Simplified Chinese menus. Preparing for App Store release."
-platform: "iOS / iPadOS 17+"
-price: "Free + one-time Pro"
-version: "1.0.2"
+bundle_id: "com.leonzl.hskwidget"
+asc_app_id: "6809129772"
+storefront: "us"
+status: "live"   # coming_soon | live | hidden
+category: "home"
+tagline: "HSK vocabulary, a glance away"
 featured: false
-icon: "/images/apps/hsk-lockscreen.png"
-appstore_url: ""
+order: 20
+unlock_price: ""
+price_label: "Free · Pro upgrade"
+description: "Review HSK 2.0 vocabulary on your Lock Screen or Home Screen. Browse words, hear Mandarin pronunciation, save favorites and choose a daily, 12-hour or 6-hour rotation. HSK 1–2 are free; an optional one-time Pro purchase unlocks HSK 3–6. English and Simplified Chinese menus."
 support_email: "raylenzed@gmail.com"
 
 # App behavior checked against the local HSK source on 2026-09-06.

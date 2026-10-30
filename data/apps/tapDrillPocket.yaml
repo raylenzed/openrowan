@@ -1,13 +1,18 @@
+# Editorial fields, written by scripts/add_app.py or by hand.
+# App Store fields (price, link, icon, screenshots, version) live in
+# data/store/<slug>.json and are refreshed daily by scripts/sync_apps.py.
 name: "Tap Drill Pocket"
 slug: "tapDrillPocket"
-tagline: "Thread charts for the shop bench."
-description: "Tap Drill Pocket is an offline tap drill, form tap, and clearance hole reference for machinists and workshop users. It supports inch, metric, UNC, UNF, NPT, NPS, and common machine screw threads, with custom drill-kit filtering so users can see the sizes they actually have."
-platform: "iOS"
-price: "$2.99"
-version: "1.0.0"
+bundle_id: "com.raylenzed.tapdrill"
+asc_app_id: "6763918301"
+storefront: "us"
+status: "live"   # coming_soon | live | hidden
+category: "makers"
+tagline: "Thread charts for the shop bench"
 featured: false
-icon: ""
-appstore_url: ""
+order: 20
+unlock_price: ""
+description: "Tap Drill Pocket is an offline tap drill, form tap, and clearance hole reference for machinists and workshop users. It supports inch, metric, UNC, UNF, NPT, NPS, and common machine screw threads, with custom drill-kit filtering so users can see the sizes they actually have."
 
 # Privacy policy generation inputs
 collects_analytics: false

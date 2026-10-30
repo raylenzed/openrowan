@@ -1,0 +1,32 @@
+{
+  "store_name": "HiveLog Bee and Apiary Tracker",
+  "price": "$4.99",
+  "appstore_url": "https://apps.apple.com/us/app/hivelog-bee-and-apiary-tracker/id6761542862",
+  "version": "1.0.1",
+  "updated": "2026-05-25",
+  "released": "2026-04-06",
+  "genre": "Utilities",
+  "min_ios": "17.0",
+  "summary": "HiveLog is the simplest way to track your beehives and stay on top of every inspection.",
+  "features": [
+    "Add unlimited hives with custom names, types, colors, and locations",
+    "Log inspections with brood pattern, honey stores, pest level, temperament, and queen sighted",
+    "Automatic health status (Healthy / Warning / Critical) based on your latest inspection",
+    "See how many days have passed since the last inspection",
+    "Inspection history with full notes for every hive",
+    "Supports Langstroth, Top-Bar, Warré, Flow Hive, and other hive types",
+    "Fully offline — all data stored locally on your device"
+  ],
+  "icon": "/images/apps/hiveLog.webp",
+  "screenshots": [
+    "/images/apps/hiveLog-1.webp",
+    "/images/apps/hiveLog-2.webp",
+    "/images/apps/hiveLog-3.webp"
+  ],
+  "icon_source": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/3a/26/06/3a260672-e450-a8f1-c877-54c2c5733ba4/AppIcon-0-0-1x_U007epad-0-1-85-220.png/256x256bb.webp",
+  "screenshot_sources": [
+    "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/95/a0/30/95a03033-73eb-cd1a-ca18-4f96abbc7380/01_hive_list.png/600x0w.webp",
+    "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/4b/d6/31/4bd631f2-916a-6133-3b7e-e59c5439248f/02_hive_detail.png/600x0w.webp",
+    "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/7f/88/d6/7f88d6fc-a758-8331-3f9b-548908445286/03_add_inspection.png/600x0w.webp"
+  ]
+}

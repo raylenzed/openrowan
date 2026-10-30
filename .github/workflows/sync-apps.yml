@@ -1,0 +1,36 @@
+name: Sync App Store data
+
+# Refreshes prices, links, icons and screenshots from the App Store once a day.
+# A commit to main makes Cloudflare Pages redeploy openrowan.com.
+on:
+  schedule:
+    - cron: "17 2 * * *"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: sync-apps
+  cancel-in-progress: false
+
+jobs:
+  sync:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - run: pip install pyyaml
+      - run: python scripts/sync_apps.py
+      - run: python scripts/sync_apps.py --check
+      - name: Commit changes
+        run: |
+          if [ -n "$(git status --porcelain -- data/store static/images/apps)" ]; then
+            git config user.name "github-actions[bot]"
+            git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+            git add data/store static/images/apps
+            git commit -m "chore: sync App Store data"
+            git push
+          fi

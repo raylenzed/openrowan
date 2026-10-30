@@ -1,0 +1,14 @@
+# Editorial fields, written by scripts/add_app.py or by hand.
+# App Store fields (price, link, icon, screenshots, version) live in
+# data/store/<slug>.json and are refreshed daily by scripts/sync_apps.py.
+name: "Chainline"
+slug: "chainline"
+bundle_id: "com.raylenzed.chainline"
+asc_app_id: "6824192570"
+storefront: "us"
+status: "live"   # coming_soon | live | hidden
+category: "move"
+tagline: "Bike maintenance log"
+featured: false
+order: 30
+unlock_price: "$4.99"

@@ -1,0 +1,14 @@
+# Editorial fields, written by scripts/add_app.py or by hand.
+# App Store fields (price, link, icon, screenshots, version) live in
+# data/store/<slug>.json and are refreshed daily by scripts/sync_apps.py.
+name: "HiveLog"
+slug: "hiveLog"
+bundle_id: "com.raylenzed.hivelog"
+asc_app_id: "6761542862"
+storefront: "us"
+status: "live"   # coming_soon | live | hidden
+category: "keepers"
+tagline: "Bee and apiary tracker"
+featured: true
+order: 10
+unlock_price: ""

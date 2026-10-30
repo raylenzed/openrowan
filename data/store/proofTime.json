@@ -1,0 +1,29 @@
+{
+  "store_name": "ProofTime: Sourdough Timer",
+  "price": "$1.99",
+  "appstore_url": "https://apps.apple.com/us/app/prooftime-sourdough-timer/id6761090248",
+  "version": "1.0",
+  "updated": "2026-03-25",
+  "released": "2026-03-25",
+  "genre": "Food & Drink",
+  "min_ios": "17.0",
+  "summary": "Stop guessing when your bulk fermentation is done. ProofTime calculates your estimated bulk time based on room temperature, levain percentage, and starter activity — then starts a countdown so you can go do other things.",
+  "features": [
+    "Clear, readable display — easy to glance at with floury hands",
+    "All calculations are local — no internet required, ever",
+    "Supports both °F and °C",
+    "Disclaimer built in: fermentation is biological, times are estimates"
+  ],
+  "icon": "/images/apps/proofTime.webp",
+  "screenshots": [
+    "/images/apps/proofTime-1.webp",
+    "/images/apps/proofTime-2.webp",
+    "/images/apps/proofTime-3.webp"
+  ],
+  "icon_source": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/9e/ee/13/9eee136d-1e57-9b64-4c27-10888edf0944/AppIcon-0-0-1x_U007ephone-0-1-85-220.png/256x256bb.webp",
+  "screenshot_sources": [
+    "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/84/86/5b/84865beb-9f1b-5a91-999c-5eab27370b68/01_bulk_fermentation.png/600x0w.webp",
+    "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/e3/00/9b/e3009b2c-9450-1867-6193-3a630e05db00/02_dough_calculator.png/600x0w.webp",
+    "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/82/c6/87/82c6874e-3e70-9561-8bbb-81b33eaf4530/03_feeding_calculator.png/600x0w.webp"
+  ]
+}

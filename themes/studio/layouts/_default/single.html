@@ -1,0 +1,32 @@
+{{ define "main" }}
+{{- $slug := .Params.app_slug | default "" -}}
+{{- with .File }}{{ if not $slug }}{{ $slug = path.Base .Dir }}{{ end }}{{ end -}}
+{{- $appName := .Params.app_name | default "" -}}
+{{- $listed := false -}}
+{{- if and $slug (index site.Data.apps $slug) }}{{ $listed = in (slice "live" "coming_soon") (partial "app.html" $slug).status }}{{ end -}}
+<article class="wrap doc">
+{{- if and $listed $appName }}
+<a class="crumb" href="/apps/{{ $slug }}/">{{ partial "icons/back.html" . }}{{ $appName }}</a>
+{{- end }}
+<header class="doc-head">
+<h1>{{ .Title }}</h1>
+{{- with .Params.last_updated }}
+<p class="doc-date">Last updated {{ . }}</p>
+{{- end }}
+</header>
+<div class="doc-body">
+{{ .Content }}
+</div>
+{{- if $appName }}
+<nav class="doc-links" aria-label="More for {{ $appName }}">
+{{- range $name := slice "privacy" "terms" "support" }}
+{{- with site.GetPage (printf "/apps/%s/%s" $slug $name) }}
+{{- if ne .RelPermalink $.RelPermalink }}
+<a class="doc-link" href="{{ .RelPermalink }}"><span>{{ .Title }}</span>{{ partial "icons/arrow.html" (dict "size" 14) }}</a>
+{{- end }}
+{{- end }}
+{{- end }}
+</nav>
+{{- end }}
+</article>
+{{ end }}

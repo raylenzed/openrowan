@@ -1,0 +1,31 @@
+{
+  "store_name": "ClayTrace 陶艺记录",
+  "price": "¥48",
+  "appstore_url": "https://apps.apple.com/cn/app/claytrace-%E9%99%B6%E8%89%BA%E8%AE%B0%E5%BD%95/id6776942120",
+  "version": "1.0.0",
+  "updated": "2026-06-10",
+  "released": "2026-06-09",
+  "genre": "Productivity",
+  "min_ios": "17.0",
+  "summary": "ClayTrace 是为陶艺创作者设计的离线工作室记录工具。",
+  "features": [
+    "支持拉坯、手捏、泥板、泥条、注浆与雕塑",
+    "记录素烧、釉烧、试片与复烧",
+    "为作品附加照片",
+    "单件作品导出 PDF",
+    "导出 CSV 供表格整理",
+    "导出包含照片的 JSON 完整备份"
+  ],
+  "icon": "/images/apps/clayTrace.webp",
+  "screenshots": [
+    "/images/apps/clayTrace-1.webp",
+    "/images/apps/clayTrace-2.webp",
+    "/images/apps/clayTrace-3.webp"
+  ],
+  "icon_source": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/50/0a/6b/500a6b68-4027-0365-4fae-8990a187373f/AppIcon-0-0-1x_U007ephone-0-1-85-220.png/256x256bb.webp",
+  "screenshot_sources": [
+    "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/85/9d/81/859d8166-1749-0b73-134c-51ec77486e52/01_Pieces.png/600x0w.webp",
+    "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/39/86/50/39865074-8517-76cc-ad4f-ae7320d5ff31/02_Piece_Detail.png/600x0w.webp",
+    "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/4f/11/a7/4f11a724-b9f0-a07a-0f1e-e3a25683eb83/03_Firings.png/600x0w.webp"
+  ]
+}

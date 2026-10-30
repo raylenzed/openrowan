@@ -1,0 +1,24 @@
+{
+  "store_name": "RigReady RV Checklist",
+  "price": "Free",
+  "appstore_url": "https://apps.apple.com/us/app/rigready-rv-checklist/id6786745088",
+  "version": "1.0",
+  "updated": "2026-07-23",
+  "released": "2026-07-23",
+  "genre": "Travel",
+  "min_ios": "17.0",
+  "summary": "Never pull out with the antenna up again.",
+  "features": [],
+  "icon": "/images/apps/rigReady.webp",
+  "screenshots": [
+    "/images/apps/rigReady-1.webp",
+    "/images/apps/rigReady-2.webp",
+    "/images/apps/rigReady-3.webp"
+  ],
+  "icon_source": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/3e/c2/0a/3ec20af5-e0f1-b86e-4273-e6e02f7d6ab6/AppIcon-0-0-1x_U007epad-0-1-85-220.png/256x256bb.webp",
+  "screenshot_sources": [
+    "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/8f/74/47/8f7447fc-ac82-9e1b-fe1d-7bbb25b562c6/iPhone_17_Pro_Max-01_Run.png/600x0w.webp",
+    "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/5f/df/99/5fdf9993-bfff-4eca-184a-91d6f6ccfd9e/iPhone_17_Pro_Max-02_Library.png/600x0w.webp",
+    "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/33/7f/60/337f601f-9f79-258f-a982-219864d4f97f/iPhone_17_Pro_Max-03_Editor.png/600x0w.webp"
+  ]
+}

@@ -1,0 +1,14 @@
+# Editorial fields, written by scripts/add_app.py or by hand.
+# App Store fields (price, link, icon, screenshots, version) live in
+# data/store/<slug>.json and are refreshed daily by scripts/sync_apps.py.
+name: "HenLog"
+slug: "henLog"
+bundle_id: "com.raylenzed.henlog"
+asc_app_id: "6789515325"
+storefront: "us"
+status: "live"   # coming_soon | live | hidden
+category: "keepers"
+tagline: "Flock and egg tracker"
+featured: true
+order: 20
+unlock_price: "$5.99"

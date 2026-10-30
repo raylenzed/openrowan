@@ -3,52 +3,55 @@ aliases: ["/apps/prooftime/privacy/"]
 title: "Privacy Policy"
 app_name: "ProofTime"
 app_slug: "proofTime"
-last_updated: "2026-03-25"
+last_updated: "2026-10-30"
 ---
 
 ## Overview
 
-ProofTime ("the App") is developed by Leilei Zhang. This Privacy Policy explains what data the App accesses, how it is used, and where it is stored.
+ProofTime ("the App") is a sourdough baking tool developed by Leilei Zhang. This Privacy Policy explains what the App stores, where it is stored, and what we collect.
 
-**Short version:** All your proof records stay on your device. We access your camera and location only to create the records you request. Nothing leaves your phone except anonymous crash reports.
+**Short version:** ProofTime works entirely on your device. It has no account, makes no network connections, and collects no data. We never see your recipes, starters or settings.
 
-## Data We Access
+## Data the App Stores on Your Device
 
-### Camera & Photo Library
+ProofTime saves the following on your device so it is there the next time you open the App:
 
-ProofTime requires camera access to capture timestamped photos and videos as proof records. You may also select existing photos from your photo library. These images are stored locally on your device and in your iCloud Photos if you have iCloud Photos enabled. We do not upload images to our servers.
+- Your settings and last-used values: temperature unit, room temperature, levain percentage, starter activity, flour weight, hydration, salt percentage, feeding ratio and desired weight.
+- The starter profiles you create in My Starters: name, hydration percentage, activity level and any notes you add.
+- A count of how many times you have started the bulk fermentation timer, used only to decide when to show Apple's rating request.
 
-### Location
+This data stays in the App's storage on your device and is never sent to us or to any third party. If you back up your device with iCloud Backup or to a computer, the data may be included in that backup, which Apple handles under your own account.
 
-ProofTime requests location access to embed GPS coordinates into your proof records. This makes records more reliable and legally defensible. Location data is stored as part of the proof record on your device only. We do not track your location in the background or collect location history.
+## Permissions
 
-### Crash Reports
+ProofTime does not request access to your camera, photos, location, contacts, microphone, health data or notifications.
 
-We collect anonymous crash reports to identify and fix bugs. These include device model, iOS version, and a crash stack trace. They contain no personally identifiable information and no proof records.
+## What We Do Not Collect
 
-## What We Do NOT Collect
+- No personal information, such as your name or email address.
+- No usage analytics and no tracking. The App contains no analytics, advertising or other third-party SDKs.
+- No advertising identifiers.
+- No data is sold or shared with anyone.
 
-- We do not collect your name, email, or any personal identifiers
-- We do not upload your photos, videos, or proof records to our servers
-- We do not track your usage patterns or behavior
-- We do not use advertising networks or analytics SDKs
-- We do not share any data with third parties
+## Crash Reports from Apple
 
-## Data Storage
+If you have chosen to share analytics with app developers (Settings › Privacy & Security › Analytics & Improvements), Apple may provide us with anonymous crash reports and performance data for ProofTime. Apple collects and controls these reports; they do not include your recipes, starters or settings. You can turn sharing off at any time in the same settings.
 
-All proof records (photos, videos, timestamps, GPS coordinates) are stored exclusively on your device's local storage and, if enabled by you, synced via iCloud under your own Apple ID. Leilei Zhang has no access to your iCloud data.
+## Rating Requests
 
-## iCloud Sync
+After you have started the bulk fermentation timer a few times, the App may show Apple's standard rating request. Apple handles this request. We only see the ratings and reviews you choose to post publicly on the App Store.
 
-If you use iCloud, your proof records may sync across your Apple devices via your personal iCloud account. This sync is between you and Apple, governed by [Apple's Privacy Policy](https://www.apple.com/legal/privacy/).
+## Deleting Your Data
+
+You can delete individual starter profiles in the App by swiping left on them. Deleting ProofTime removes all of its data from your device.
 
 ## Children's Privacy
 
-This app is not directed at children under 13.
+ProofTime is not directed at children under 13. The App does not collect information from anyone, including children.
 
 ## Changes to This Policy
 
-We will update this page when our practices change. The "Last updated" date at the top will reflect any changes.
+We will update this page if the App's data practices change. The "Last updated" date at the top shows the latest revision.
 
 ## Contact
 

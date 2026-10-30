@@ -1,0 +1,25 @@
+{{- /*
+  Merge one app's editorial record (data/apps/<slug>.yaml) with its App Store
+  record (data/store/<slug>.json, written by scripts/sync_apps.py).
+  A coming_soon app counts as live as soon as the sync has found it in the store.
+*/ -}}
+{{- $slug := . -}}
+{{- $e := index site.Data.apps $slug | default dict -}}
+{{- $s := dict -}}
+{{- with site.Data.store }}{{ $s = index . $slug | default dict }}{{ end -}}
+{{- $status := $e.status | default "hidden" -}}
+{{- if and (eq $status "coming_soon") $s.appstore_url }}{{ $status = "live" }}{{ end -}}
+{{- $price := "" -}}
+{{- if eq $status "live" -}}
+  {{- with $e.price_label -}}
+    {{- $price = . -}}
+  {{- else -}}
+    {{- $price = $s.price | default "" -}}
+    {{- if and (eq $price "Free") $e.unlock_price }}{{ $price = printf "Free · unlock %s" $e.unlock_price }}{{ end -}}
+    {{- with $e.store_label }}{{ $price = printf "%s · %s" $price . }}{{ end -}}
+  {{- end -}}
+{{- else if eq $status "coming_soon" -}}
+  {{- $price = "Coming soon" -}}
+{{- end -}}
+{{- $icon := $s.icon | default $e.local_icon | default "" -}}
+{{- return dict "slug" $slug "name" ($e.name | default $slug) "tagline" ($e.tagline | default "") "category" ($e.category | default "") "order" ($e.order | default 100) "featured" ($e.featured | default false) "status" $status "icon" $icon "price" $price "url" (printf "/apps/%s/" $slug) "store_url" ($s.appstore_url | default "") "store" $s "data" $e -}}

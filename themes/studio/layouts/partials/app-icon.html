@@ -1,0 +1,7 @@
+{{- $app := .app -}}
+{{- $size := .size | default 64 -}}
+{{- with $app.icon -}}
+<img class="app-icon" src="{{ . }}" alt="" width="{{ $size }}" height="{{ $size }}" decoding="async"{{ if $.lazy }} loading="lazy"{{ end }}>
+{{- else -}}
+<span class="app-icon app-icon-fallback" aria-hidden="true">{{ substr $app.name 0 1 }}</span>
+{{- end -}}

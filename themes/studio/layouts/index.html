@@ -1,0 +1,148 @@
+{{ define "main" }}
+{{- $apps := partial "apps.html" . -}}
+{{- $live := where $apps "status" "live" -}}
+{{- $categories := slice -}}
+{{- range site.Data.categories.list -}}
+  {{- if where $live "category" .id }}{{ $categories = $categories | append . }}{{ end -}}
+{{- end -}}
+{{- $icons := slice -}}
+{{- range $live }}{{ with .icon }}{{ $icons = $icons | append . }}{{ end }}{{ end -}}
+
+<section class="hero" id="top">
+{{- with $icons }}
+{{- $n := len . }}
+<div class="hero-visual" aria-hidden="true">
+<div class="hero-cols">
+{{- range $col := seq 0 3 }}
+<div class="hero-col">
+{{- range $pass := seq 2 }}{{ range $i := seq 0 5 }}
+<img src="{{ index $icons (mod (add (mul $col 6) $i) $n) }}" alt="" width="128" height="128" decoding="async">
+{{- end }}{{ end }}
+</div>
+{{- end }}
+</div>
+</div>
+{{- end }}
+<a class="badge" href="#apps" aria-label="Browse the apps">
+<svg class="badge-ring" viewBox="0 0 120 120" aria-hidden="true" focusable="false"><defs><path id="badge-ring-path" d="M60,60 m-44,0 a44,44 0 1,1 88,0 a44,44 0 1,1 -88,0"/></defs><text><textPath href="#badge-ring-path" textLength="272" lengthAdjust="spacing">BROWSE THE APPS · PAY ONCE · </textPath></text></svg>
+<svg width="26" height="26" viewBox="0 0 26 26" aria-hidden="true" focusable="false"><path d="M7 19 L19 7 M9 7 H19 V17" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"/></svg>
+</a>
+<div class="wrap hero-content">
+<h1 class="hero-title"><span class="line"><span>Small apps for</span></span><span class="line"><span>serious hobbies.</span></span></h1>
+<p class="hero-sub fade-in delay-1">{{ site.Params.description }}</p>
+
+{{- with $categories }}
+<div class="finder fade-in delay-2" data-finder>
+<div class="tabs" role="tablist" aria-label="Choose a hobby">
+{{- range $i, $cat := . }}
+<button class="tab" type="button" role="tab" id="tab-{{ $cat.id }}" aria-controls="panel-{{ $cat.id }}" aria-selected="{{ if eq $i 0 }}true{{ else }}false{{ end }}"{{ if ne $i 0 }} tabindex="-1"{{ end }}>{{ $cat.tab }}</button>
+{{- end }}
+</div>
+<div class="panel-row">
+<div class="panels">
+{{- range $i, $cat := . }}
+<div class="cells" role="tabpanel" id="panel-{{ $cat.id }}" aria-labelledby="tab-{{ $cat.id }}"{{ if ne $i 0 }} hidden{{ end }}>
+{{- range first 3 (where $live "category" $cat.id) }}
+<a class="cell" href="{{ .url }}">{{ partial "app-icon.html" (dict "app" . "size" 44) }}<span class="cell-text"><span class="cell-name">{{ .name }}</span><span class="cell-price">{{ .price }}</span></span></a>
+{{- end }}
+</div>
+{{- end }}
+</div>
+<a class="finder-go" href="#apps" aria-label="See all apps">{{ partial "icons/arrow.html" (dict "size" 22) }}</a>
+</div>
+</div>
+{{- end }}
+
+<div class="stats fade-in delay-3">
+<div class="stat"><b>{{ len $live }}</b><span>apps on the<br>App Store</span></div>
+{{- if not (where $apps "data.has_subscription" true) }}
+<div class="stat"><b>0</b><span>subscriptions<br>to manage</span></div>
+{{- end }}
+{{- if not (where $apps "data.has_account_system" true) }}
+<div class="stat"><b>0</b><span>accounts<br>to create</span></div>
+{{- end }}
+</div>
+</div>
+</section>
+
+{{- with $live }}
+<section class="marquee" aria-label="The apps">
+<div class="marquee-track">
+{{- range $pass := seq 2 }}
+<div class="marquee-set"{{ if eq $pass 2 }} aria-hidden="true"{{ end }}>
+{{- range $i, $app := $live }}
+<span{{ if not (modBool $i 2) }} class="outline"{{ end }}>{{ $app.name }}</span>{{ partial "icons/berry.html" (dict "size" 26) }}
+{{- end }}
+</div>
+{{- end }}
+</div>
+</section>
+{{- end }}
+
+<section class="wrap section" id="apps">
+<div class="section-head reveal">
+<h2 class="h2">Pick your hobby.</h2>
+<p class="lede">Prices from the US App Store unless noted. Every app has its own privacy policy and support page.</p>
+</div>
+{{- $number := 0 }}
+{{- range site.Data.categories.list }}
+{{- $list := where $apps "category" .id }}
+{{- if $list }}
+{{- $number = add $number 1 }}
+<div class="group">
+<div class="group-head reveal">
+<span class="eyebrow">{{ printf "%02d" $number }}</span>
+<h3 class="group-title">{{ .title }}</h3>
+<p class="group-blurb">{{ .blurb }}</p>
+</div>
+<div class="cards">
+{{- range $list }}
+<div class="reveal">{{ partial "app-card.html" . }}</div>
+{{- end }}
+</div>
+</div>
+{{- end }}
+{{- end }}
+</section>
+
+<section class="wrap section section-tight" id="principles">
+<h2 class="h2 reveal">How every app is built.</h2>
+<div class="stack">
+<div class="stack-card">
+<div class="stack-text">
+<span class="eyebrow">01</span>
+<h3>Pay once</h3>
+<p>No subscriptions. Paid apps are a single purchase; free apps unlock with one in-app purchase.</p>
+</div>
+<svg viewBox="0 0 64 64" aria-hidden="true" focusable="false"><path d="M8 32 L32 8 H54 V30 L30 54 Z" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linejoin="round"/><circle cx="43.5" cy="18.5" r="4" class="accent-fill"/><path d="M22 34 L30 42 M28 28 L36 36" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round"/></svg>
+</div>
+<div class="stack-card">
+<div class="stack-text">
+<span class="eyebrow">02</span>
+<h3>Stays on your iPhone</h3>
+<p>No accounts, no ads. Your logs, notes and photos live on your device.</p>
+</div>
+<svg viewBox="0 0 64 64" aria-hidden="true" focusable="false"><rect x="18" y="6" width="28" height="52" rx="6" fill="none" stroke="currentColor" stroke-width="1.6"/><path d="M27 33 L31 37 L38 28" fill="none" class="accent-stroke" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"/><path d="M28 12 H36" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round"/></svg>
+</div>
+<div class="stack-card">
+<div class="stack-text">
+<span class="eyebrow">03</span>
+<h3>Made for one routine</h3>
+<p>Each app follows the routine of one hobby: hive inspections, egg counts, pre-trip RV checklists.</p>
+</div>
+<svg viewBox="0 0 64 64" aria-hidden="true" focusable="false"><path d="M50 26 A20 20 0 0 0 15 18" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round"/><path d="M14 8 V19 H25" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/><path d="M14 38 A20 20 0 0 0 49 46" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round"/><path d="M50 56 V45 H39" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/><circle cx="32" cy="32" r="4" class="accent-fill"/></svg>
+</div>
+</div>
+</section>
+
+<section class="about" id="about">
+<div class="wrap about-inner">
+<h2 class="reveal">One person, one hobby at a time.</h2>
+<div class="about-side reveal">
+<p>{{ site.Params.studioName }} is a one-person studio run by {{ site.Params.author }}. Each app is built around the routine of one hobby. Questions and feature requests are welcome.</p>
+<a class="btn" href="mailto:{{ site.Params.email }}">Contact us{{ partial "icons/arrow.html" (dict "size" 16) }}</a>
+<span class="about-email">{{ site.Params.email }}</span>
+</div>
+</div>
+</section>
+{{ end }}

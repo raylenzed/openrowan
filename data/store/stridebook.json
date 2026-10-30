@@ -1,0 +1,33 @@
+{
+  "store_name": "Stridebook: Running Log",
+  "price": "Free",
+  "appstore_url": "https://apps.apple.com/us/app/stridebook-running-log/id6824153990",
+  "version": "1.0",
+  "updated": "2026-10-20",
+  "released": "2026-10-19",
+  "genre": "Health & Fitness",
+  "min_ios": "17.0",
+  "summary": "Stridebook is a running log for runners who already track their runs — and want a proper training diary to go with them.",
+  "features": [
+    "Weekly distance against last week and your weekly goal",
+    "Your week starts on the day you choose, so every run lands in the right week",
+    "A seven-day strip that shows each run — and why you didn't run (rest, sick, injured, travel, cross-training)",
+    "Twelve-week chart and your longest run",
+    "Distance, time, pace, run type, effort, route and notes",
+    "Notes for days without a run",
+    "Month-by-month totals",
+    "Distance on every pair, with a retirement reminder"
+  ],
+  "icon": "/images/apps/stridebook.webp",
+  "screenshots": [
+    "/images/apps/stridebook-1.webp",
+    "/images/apps/stridebook-2.webp",
+    "/images/apps/stridebook-3.webp"
+  ],
+  "icon_source": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/43/3a/74/433a74e8-8c35-85e4-4763-c4c88677b5cb/AppIcon-0-0-1x_U007epad-0-1-85-220.png/256x256bb.webp",
+  "screenshot_sources": [
+    "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/1a/08/05/1a08056a-9151-be64-70f1-acc4360d4104/iPhone_17_Pro_Max-01_ThisWeek.png/600x0w.webp",
+    "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/5d/45/b9/5d45b973-e2f1-6ab6-4575-5ab340cd6f9d/iPhone_17_Pro_Max-02_Log.png/600x0w.webp",
+    "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/a0/ae/94/a0ae94ed-9676-123f-45ae-c2d319db0033/iPhone_17_Pro_Max-03_AddRun.png/600x0w.webp"
+  ]
+}
