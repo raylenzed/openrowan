@@ -9,6 +9,7 @@ storefront: "us"
 status: "live"   # coming_soon | live | hidden
 category: "keepers"
 tagline: "Reef tank tracker"
+tagline_zh: "珊瑚缸记录"
 featured: false
 order: 30
 unlock_price: ""

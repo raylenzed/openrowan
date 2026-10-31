@@ -9,6 +9,7 @@ storefront: "us"
 status: "live"   # coming_soon | live | hidden
 category: "makers"
 tagline: "Sourdough proofing timer"
+tagline_zh: "酸面团发酵计时器"
 featured: false
 order: 40
 unlock_price: ""

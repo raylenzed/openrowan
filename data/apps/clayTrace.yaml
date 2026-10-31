@@ -9,7 +9,9 @@ storefront: "cn"
 status: "live"   # coming_soon | live | hidden
 category: "makers"
 tagline: "Pottery log · 陶艺记录"
+tagline_zh: "陶艺记录"
 featured: false
 order: 10
 unlock_price: ""
 store_label: "China"
+store_label_zh: "中国区"

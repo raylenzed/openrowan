@@ -9,6 +9,7 @@ storefront: "us"
 status: "live"   # coming_soon | live | hidden
 category: "makers"
 tagline: "Tile, box and grout calculator"
+tagline_zh: "瓷砖、整箱与填缝剂计算器"
 featured: false
 order: 50
 unlock_price: ""

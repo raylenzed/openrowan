@@ -1,10 +1,10 @@
 <!doctype html>
-<html lang="{{ site.LanguageCode | default "en" }}">
+<html lang="{{ site.Language.LanguageCode | default "en" }}">
 <head>
 {{ partial "head.html" . }}
 </head>
 <body class="{{ if .IsHome }}is-home{{ else }}is-inner{{ end }}">
-<a class="skip-link" href="#main">Skip to content</a>
+<a class="skip-link" href="#main">{{ i18n "skipLink" }}</a>
 {{ partial "header.html" . }}
 <main id="main">
 {{ block "main" . }}{{ end }}

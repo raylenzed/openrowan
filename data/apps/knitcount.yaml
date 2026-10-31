@@ -9,6 +9,7 @@ storefront: "us"
 status: "live"   # coming_soon | live | hidden
 category: "makers"
 tagline: "Knitting row counter"
+tagline_zh: "编织行数计数器"
 featured: false
 order: 30
 unlock_price: ""

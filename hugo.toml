@@ -1,6 +1,8 @@
 baseURL = "https://openrowan.com/"
 languageCode = "en-us"
 title = "OpenRowan Studio"
+defaultContentLanguage = "en"
+defaultContentLanguageInSubdir = false
 theme = "studio"
 disablePathToLower = true
 
@@ -11,6 +13,21 @@ disablePathToLower = true
   email = "hello@openrowan.com"
   github = "https://github.com/RaylenZed"
   description = "Focused iPhone apps for beekeepers, reef keepers, backyard flocks, potters, cyclists and runners. Pay once. What you record stays on your iPhone."
+
+[languages]
+  [languages.en]
+    languageName = "English"
+    languageCode = "en-US"
+    weight = 1
+  [languages.zh]
+    languageName = "中文"
+    languageCode = "zh-CN"
+    title = "花楸 OpenRowan"
+    weight = 2
+    [languages.zh.params]
+      studioName = "花楸 OpenRowan"
+      tagline = "为认真的爱好做的小 App"
+      description = "为养蜂人、养鸡的、养珊瑚的、做陶的、骑行和跑步的人做的 iPhone App。买一次就是你的。你记下的东西，只留在你的 iPhone 里。"
 
 [markup]
   [markup.goldmark]

@@ -9,6 +9,7 @@ storefront: "us"
 status: "live"   # coming_soon | live | hidden
 category: "makers"
 tagline: "Thread charts for the shop bench"
+tagline_zh: "车间台面用的螺纹对照表"
 featured: false
 order: 20
 unlock_price: ""

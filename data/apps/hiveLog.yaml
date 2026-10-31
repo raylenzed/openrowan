@@ -9,6 +9,7 @@ storefront: "us"
 status: "live"   # coming_soon | live | hidden
 category: "keepers"
 tagline: "Bee and apiary tracker"
+tagline_zh: "蜜蜂与蜂场记录"
 featured: true
 order: 10
 unlock_price: ""

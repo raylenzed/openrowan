@@ -9,6 +9,7 @@ storefront: "us"
 status: "live"   # coming_soon | live | hidden
 category: "move"
 tagline: "Running log"
+tagline_zh: "跑步日志"
 featured: false
 order: 20
 unlock_price: "$7.99"

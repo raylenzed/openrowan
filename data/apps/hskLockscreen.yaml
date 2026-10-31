@@ -9,10 +9,12 @@ storefront: "us"
 status: "live"   # coming_soon | live | hidden
 category: "home"
 tagline: "HSK vocabulary, a glance away"
+tagline_zh: "HSK 词汇，抬眼就看到"
 featured: false
 order: 20
 unlock_price: ""
 price_label: "Free · Pro upgrade"
+price_label_zh: "免费 · Pro 升级"
 description: "Review HSK 2.0 vocabulary on your Lock Screen or Home Screen. Browse words, hear Mandarin pronunciation, save favorites and choose a daily, 12-hour or 6-hour rotation. HSK 1–2 are free; an optional one-time Pro purchase unlocks HSK 3–6. English and Simplified Chinese menus."
 support_email: "raylenzed@gmail.com"
 

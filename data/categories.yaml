@@ -4,15 +4,31 @@ list:
     title: "For keepers"
     tab: "Keepers"
     blurb: "Hives, flocks and reef tanks."
+    zh:
+      title: "给养护的人"
+      tab: "养护"
+      blurb: "蜂箱、鸡群和珊瑚缸。"
   - id: makers
     title: "For makers"
     tab: "Makers"
     blurb: "Clay, yarn, dough, threads and tile."
+    zh:
+      title: "给手艺人"
+      tab: "手作"
+      blurb: "陶土、毛线、面团、螺纹和瓷砖。"
   - id: move
     title: "On the move"
     tab: "On the move"
     blurb: "Runs, rides and road trips."
+    zh:
+      title: "在路上"
+      tab: "出行"
+      blurb: "跑步、骑行和公路旅行。"
   - id: home
     title: "At home"
     tab: "At home"
     blurb: "Cards, remotes, words and bedtime."
+    zh:
+      title: "在家里"
+      tab: "居家"
+      blurb: "纸牌、遥控、单词和睡前时光。"

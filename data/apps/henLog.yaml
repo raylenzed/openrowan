@@ -9,6 +9,7 @@ storefront: "us"
 status: "live"   # coming_soon | live | hidden
 category: "keepers"
 tagline: "Flock and egg tracker"
+tagline_zh: "鸡群与产蛋记录"
 featured: true
 order: 20
 unlock_price: "$5.99"

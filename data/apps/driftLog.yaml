@@ -9,6 +9,7 @@ storefront: "us"
 status: "hidden"   # coming_soon | live | hidden
 category: "makers"
 tagline: "Watch accuracy log"
+tagline_zh: "手表走时记录"
 featured: false
 order: 60
 unlock_price: ""

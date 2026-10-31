@@ -9,17 +9,20 @@
 {{- with site.Data.store }}{{ $s = index . $slug | default dict }}{{ end -}}
 {{- $status := $e.status | default "hidden" -}}
 {{- if and (eq $status "coming_soon") $s.appstore_url }}{{ $status = "live" }}{{ end -}}
+{{- $zh := eq site.Language.Lang "zh" -}}
 {{- $price := "" -}}
 {{- if eq $status "live" -}}
   {{- with $e.price_label -}}
     {{- $price = . -}}
+    {{- if $zh }}{{ with $e.price_label_zh }}{{ $price = . }}{{ end }}{{ end -}}
   {{- else -}}
     {{- $price = $s.price | default "" -}}
-    {{- if and (eq $price "Free") $e.unlock_price }}{{ $price = printf "Free · unlock %s" $e.unlock_price }}{{ end -}}
-    {{- with $e.store_label }}{{ $price = printf "%s · %s" $price . }}{{ end -}}
+    {{- if and $zh (eq $price "Free") }}{{ $price = i18n "free" }}{{ end -}}
+    {{- if and (eq $price "Free") $e.unlock_price }}{{ $price = i18n "freeUnlock" (dict "price" $e.unlock_price) }}{{ end -}}
+    {{- with $e.store_label }}{{ $l := . }}{{ if $zh }}{{ with $e.store_label_zh }}{{ $l = . }}{{ end }}{{ end }}{{ $price = printf "%s · %s" $price $l }}{{ end -}}
   {{- end -}}
 {{- else if eq $status "coming_soon" -}}
-  {{- $price = "Coming soon" -}}
+  {{- $price = i18n "comingSoon" -}}
 {{- end -}}
 {{- $icon := $s.icon | default $e.local_icon | default "" -}}
-{{- return dict "slug" $slug "name" ($e.name | default $slug) "tagline" ($e.tagline | default "") "category" ($e.category | default "") "order" ($e.order | default 100) "featured" ($e.featured | default false) "status" $status "icon" $icon "price" $price "url" (printf "/apps/%s/" $slug) "store_url" ($s.appstore_url | default "") "store" $s "data" $e -}}
+{{- return dict "slug" $slug "name" ($e.name | default $slug) "tagline" (cond (and $zh $e.tagline_zh) $e.tagline_zh ($e.tagline | default "")) "category" ($e.category | default "") "order" ($e.order | default 100) "featured" ($e.featured | default false) "status" $status "icon" $icon "price" $price "url" (printf "/apps/%s/" $slug) "store_url" ($s.appstore_url | default "") "store" $s "data" $e -}}

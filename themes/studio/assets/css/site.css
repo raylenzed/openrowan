@@ -305,3 +305,14 @@ a:hover { color: var(--accent); }
   html { scroll-behavior: auto; }
   *, *::before, *::after { animation: none !important; transition: none !important; }
 }
+
+/* Language switch, and Chinese typography: no negative tracking (it crowds CJK), system CJK faces, a little more line height. */
+.lang-switch { opacity: .75; }
+:lang(zh-CN) { --font: "Plus Jakarta Sans", -apple-system, BlinkMacSystemFont, "PingFang SC", "Hiragino Sans GB", "Microsoft YaHei", "Noto Sans SC", sans-serif; }
+:lang(zh-CN) .hero-title, :lang(zh-CN) .h2, :lang(zh-CN) .group-title, :lang(zh-CN) .stack-card h3, :lang(zh-CN) .about h2, :lang(zh-CN) .stat b, :lang(zh-CN) .marquee-set { letter-spacing: 0; }
+:lang(zh-CN) .hero-title { line-height: 1.12; font-size: clamp(40px, 5.2vw, 80px); }
+:lang(zh-CN) .h2, :lang(zh-CN) .about h2 { line-height: 1.12; }
+:lang(zh-CN) .hero-sub, :lang(zh-CN) .lede, :lang(zh-CN) .stack-text p, :lang(zh-CN) .about-side p { line-height: 1.8; }
+:lang(zh-CN) .badge-ring text { font-size: 10.5px; letter-spacing: 0; }
+.logo .cn { font-size: 26px; font-weight: 700; letter-spacing: .02em; margin-right: 8px; }
+.logo small { font-size: 13px; font-weight: 600; letter-spacing: 0; color: var(--muted); }

@@ -9,6 +9,7 @@ storefront: "us"
 status: "live"   # coming_soon | live | hidden
 category: "move"
 tagline: "Bike maintenance log"
+tagline_zh: "自行车保养记录"
 featured: false
 order: 30
 unlock_price: "$4.99"

@@ -9,6 +9,7 @@ storefront: "us"
 status: "coming_soon"   # coming_soon | live | hidden; sync shows it as live once it is on the App Store
 category: "home"
 tagline: "Remote for Harmony Hub"
+tagline_zh: "Harmony Hub 遥控器"
 featured: false
 order: 40
 unlock_price: "$7.99"

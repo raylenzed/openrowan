@@ -9,6 +9,7 @@ storefront: "us"
 status: "live"   # coming_soon | live | hidden
 category: "home"
 tagline: "Prepaid card tracker"
+tagline_zh: "储值卡记账"
 featured: false
 order: 10
 unlock_price: ""

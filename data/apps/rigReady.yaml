@@ -9,6 +9,7 @@ storefront: "us"
 status: "live"   # coming_soon | live | hidden
 category: "move"
 tagline: "RV checklists"
+tagline_zh: "房车检查清单"
 featured: true
 order: 10
 unlock_price: "$5.99"

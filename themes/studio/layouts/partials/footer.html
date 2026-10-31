@@ -1,7 +1,7 @@
 <footer class="site-footer">
 <div class="wrap footer-inner">
-<span>© {{ now.Year }} {{ site.Params.studioName }} · 花楸</span>
-<span>Privacy policy and support for each app are on its page.</span>
+<span>{{ i18n "copyright" (dict "year" now.Year) }}</span>
+<span>{{ i18n "footerNote" }}</span>
 <a href="{{ site.Params.github }}" rel="noopener">GitHub</a>
 </div>
 </footer>

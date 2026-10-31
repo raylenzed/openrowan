@@ -1,0 +1,5 @@
+{{- /* One homepage category in the current language: data/categories.yaml holds English, and a `zh` block holds Chinese. */ -}}
+{{- $c := . -}}
+{{- $out := dict "id" $c.id "title" $c.title "tab" $c.tab "blurb" $c.blurb -}}
+{{- if eq site.Language.Lang "zh" }}{{ with $c.zh }}{{ $out = dict "id" $c.id "title" .title "tab" .tab "blurb" .blurb }}{{ end }}{{ end -}}
+{{- return $out -}}

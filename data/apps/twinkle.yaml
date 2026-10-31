@@ -9,6 +9,7 @@ storefront: "us"
 status: "live"   # coming_soon | live | hidden
 category: "home"
 tagline: "Offline bedtime stories"
+tagline_zh: "离线睡前故事"
 featured: false
 order: 30
 unlock_price: "$4.99"

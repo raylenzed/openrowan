@@ -1,11 +1,14 @@
 <header class="site-header">
 <nav class="wrap nav" aria-label="Main">
-<a class="logo" href="/">{{ partial "icons/berry.html" (dict "size" 40) }}<span>Open<b>Rowan</b></span></a>
+<a class="logo" href="{{ "/" | relLangURL }}">{{ partial "icons/berry.html" (dict "size" 40) }}<span>{{ i18n "logoWord" | safeHTML }}</span></a>
 <div class="nav-links">
-<a href="/#apps">Apps</a>
-<a href="/#principles">Principles</a>
-<a href="/#about">About</a>
-<a class="btn btn-sm" href="mailto:{{ site.Params.email }}">Contact us</a>
+<a href="{{ "/" | relLangURL }}#apps">{{ i18n "navApps" }}</a>
+<a href="{{ "/" | relLangURL }}#principles">{{ i18n "navPrinciples" }}</a>
+<a href="{{ "/" | relLangURL }}#about">{{ i18n "navAbout" }}</a>
+{{- range .Translations }}
+<a class="lang-switch" href="{{ .RelPermalink }}" hreflang="{{ .Language.LanguageCode }}" lang="{{ .Language.LanguageCode }}">{{ .Language.LanguageName }}</a>
+{{- end }}
+<a class="btn btn-sm" href="mailto:{{ site.Params.email }}">{{ i18n "navContact" }}</a>
 </div>
 </nav>
 </header>
