@@ -1,0 +1,22 @@
+{{- /* Add to an app's privacy.md in the same release that ships OpenRowanKit:  {{< usage-statistics >}}
+       and in that page remove the lines that say the app has no analytics or does not track usage. Text matches docs/privacy-checklist.md in openrowan-platform. */ -}}
+{{- $app := .Page.Params.app_name | default "the App" -}}
+## Anonymous Usage Statistics
+
+If you allow it, {{ $app }} counts anonymous usage so we can decide what to improve: which features are used, how long sessions last, and errors. With each report the App sends your device model, system version, App version, App Store country or region, language and network type (Wi-Fi or cellular). Reports are tied together only by a random number generated on your device. That number is not your name, an account, or an advertising identifier, and it changes if you reinstall the App.
+
+**What is never collected:** anything you create in the App (notes, records, photos), your location, your contacts, health data, advertising identifiers, or which other apps you have installed. Nothing is used for advertising or sold, and nothing is shared with third-party analytics services.
+
+**Where it is stored:** on our own server in Japan. Raw reports are kept for 13 months; after that only summary numbers that are not tied to any device remain.
+
+**Your choices:**
+
+- In the EU, the UK and Switzerland, the App asks before it collects anything, and you can say no.
+- Everywhere else, the App tells you once and you can turn statistics off at any time in Settings.
+- No statistics are collected for the App Store in mainland China.
+- Settings also lets you delete the statistics stored about your device; deletion takes effect immediately.
+- Paid features never depend on your choice.
+
+## Feedback
+
+If you choose to send feedback from inside the App, we receive the text you write, the email address if you choose to add one, and the App version and device model. We use it only to reply and to improve the App.
