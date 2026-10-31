@@ -1,0 +1,38 @@
+name: Uptime check
+
+# An outside view of the sites, because the Console's own alerts cannot fire when the server itself is down.
+# A failed run makes GitHub email the repository owner (Settings > Notifications > Actions: "Send notifications for failed workflows").
+# Each address is tried 3 times, 20 seconds apart, so a single dropped request does not raise an alarm.
+on:
+  schedule:
+    - cron: "*/10 * * * *"
+  workflow_dispatch:
+
+permissions: {}
+
+concurrency:
+  group: uptime
+  cancel-in-progress: true
+
+jobs:
+  check:
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+    steps:
+      - name: Check every address
+        run: |
+          failed=0
+          for url in \
+            https://openrowan.com/ \
+            https://openrowan.com/zh/ \
+            https://console.openrowan.com/healthz \
+            https://api.openrowan.com/v1/health; do
+            ok=0
+            for try in 1 2 3; do
+              code=$(curl -s -o /dev/null -m 15 -w '%{http_code}' "$url" || true)
+              if [ "$code" = "200" ]; then ok=1; break; fi
+              sleep 20
+            done
+            if [ "$ok" = "1" ]; then echo "ok    $url"; else echo "DOWN  $url (last status: ${code:-none})"; failed=1; fi
+          done
+          exit $failed
