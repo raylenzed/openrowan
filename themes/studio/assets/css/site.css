@@ -63,6 +63,8 @@ a:hover { color: var(--accent); }
 .nav { min-height: 96px; display: flex; flex-wrap: wrap; align-items: center; justify-content: space-between; gap: 12px 16px; }
 .logo { display: flex; align-items: center; gap: 12px; font-size: 22px; font-weight: 800; letter-spacing: -.03em; text-decoration: none; }
 .logo:hover { color: var(--ink); }
+.logo span { font-weight: 500; }
+.logo b { font-weight: 800; }
 .nav-links { display: flex; flex-wrap: wrap; align-items: center; gap: 8px 36px; }
 .nav-links a:not(.btn) { display: inline-flex; align-items: center; min-height: 44px; font-size: 15px; font-weight: 600; text-decoration: none; }
 
