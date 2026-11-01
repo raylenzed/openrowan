@@ -1,8 +1,8 @@
-# Editorial fields. No asc_app_id yet: add it once the App Store Connect record exists,
-# then sync_apps.py picks the app up and shows it as live after review.
+# Editorial fields. sync_apps.py picks the app up and shows it as live after review.
 name: "NightStall"
 slug: "nightstall"
 bundle_id: "com.raylenzed.nightstall"
+asc_app_id: "6829407468"
 storefront: "tw"
 status: "coming_soon"
 category: "games"

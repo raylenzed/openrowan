@@ -1,8 +1,8 @@
-# Editorial fields. No asc_app_id yet: add it once the App Store Connect record exists,
-# then sync_apps.py picks the app up and shows it as live after review.
+# Editorial fields. sync_apps.py picks the app up and shows it as live after review.
 name: "LocalLine"
 slug: "localline"
 bundle_id: "com.raylenzed.localline"
+asc_app_id: "6829407607"
 storefront: "jp"
 status: "coming_soon"
 category: "games"
