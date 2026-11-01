@@ -1,0 +1,14 @@
+# Editorial fields. No asc_app_id yet: add it once the App Store Connect record exists,
+# then sync_apps.py picks the app up and shows it as live after review.
+name: "Candidat 2027"
+slug: "candidat"
+bundle_id: "com.raylenzed.candidat"
+storefront: "fr"
+status: "coming_soon"
+category: "games"
+tagline: "Run for President of France"
+tagline_zh: "参选 2027 年法国总统"
+featured: false
+order: 30
+unlock_price: ""
+local_icon: "/images/apps/candidat-local.png"

@@ -1,0 +1,14 @@
+# Editorial fields. No asc_app_id yet: add it once the App Store Connect record exists,
+# then sync_apps.py picks the app up and shows it as live after review.
+name: "LocalLine"
+slug: "localline"
+bundle_id: "com.raylenzed.localline"
+storefront: "jp"
+status: "coming_soon"
+category: "games"
+tagline: "Save a rural railway"
+tagline_zh: "拯救一条日本乡下铁路"
+featured: false
+order: 20
+unlock_price: ""
+local_icon: "/images/apps/localline-local.png"

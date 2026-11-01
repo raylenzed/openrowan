@@ -32,3 +32,11 @@ list:
       title: "在家里"
       tab: "居家"
       blurb: "纸牌、遥控、单词和睡前时光。"
+  - id: games
+    title: "Games"
+    tab: "Games"
+    blurb: "Small management and strategy games."
+    zh:
+      title: "游戏"
+      tab: "游戏"
+      blurb: "小型经营和策略游戏。"

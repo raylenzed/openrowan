@@ -1,0 +1,14 @@
+# Editorial fields. No asc_app_id yet: add it once the App Store Connect record exists,
+# then sync_apps.py picks the app up and shows it as live after review.
+name: "NightStall"
+slug: "nightstall"
+bundle_id: "com.raylenzed.nightstall"
+storefront: "tw"
+status: "coming_soon"
+category: "games"
+tagline: "Night-market stall game"
+tagline_zh: "经营一个台湾夜市小吃摊的小游戏"
+featured: false
+order: 10
+unlock_price: ""
+local_icon: "/images/apps/nightstall-local.png"
